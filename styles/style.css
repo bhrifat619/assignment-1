@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    height: 38rem;
+    width: 100%;
+    background: url(../images/banner/banner1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+}
+
+.header-item {
+    height: 37rem;
+    width: 31rem;
+    margin-right: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+    flex-direction: column;
+
+}
+
+.header-item h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.header-item p {
+    color: #624747;
+    margin-bottom: 1.5rem;
+}
+
+.header-item .btn {
+    height: 3rem;
+    width: 8.5rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff4639;
+    cursor: pointer;
+}
+
+/* =========================== */
+/* failure section  */
+.failure {
+    height: 47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12rem;
+    margin-top: 8rem;
+}
+
+.fail-text {
+    margin-left: 3.5rem;
+}
+
+.fail-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.fail-text p {
+    color: #624747;
+    font-size: 1rem;
+}
+
+.item-1 {
+    margin-bottom: 1rem;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.fail-img img {
+    width: 26rem;
+}
+
+/* ============================== */
+/* failure section end's */
+
+.plan {
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 12rem;
+}
+
+.plan .plan-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 92px;
+}
+
+.plan h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.plan-item h2 {
+    margin-bottom: .5rem;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+/* ================================= */
+/* plan section end's here  */
+.mindset {
+    margin: 0 12rem;
+    margin-top: 5rem;
+    height: 11rem;
+    height: 11rem;
+    background: url(../images/watch.png), linear-gradient(to right, #ff2626, rgb(255 255 255));
+    border-radius: 5px;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mindset h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffff;
+}
+.mindset .btn-2 {
+    height: 3rem;
+    width: 7rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffff;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ff2626;
+}
+.mind-item{
+    padding: 2rem;
+}
